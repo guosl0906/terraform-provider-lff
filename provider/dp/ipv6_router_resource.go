@@ -135,7 +135,7 @@ func (r *Ipv6RouterResource) Configure(ctx context.Context, req resource.Configu
 	}
 	if !ok {
 		resp.Diagnostics.AddError(
-			"Unexpected Resource Configure Type",
+			"Unexpected Resource Configure Type aaaaaaaaaaaaaaaaaaaaaaa",
 			fmt.Sprintf("Expected *http.Client, got: %T. Please report this issue to the provider developers.", req.ProviderData),
 		)
 		return
