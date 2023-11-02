@@ -196,7 +196,7 @@ type BatchGetDeviceTargetNatProviderModel struct {
 }
 
 func (p *DpProvider) Metadata(ctx context.Context, req provider.MetadataRequest, resp *provider.MetadataResponse) {
-	resp.TypeName = "dptech-demo-lff"
+	resp.TypeName = "dptech-demo-lff1"
 	tflog.Info(ctx, "Metadata**********")
 }
 
